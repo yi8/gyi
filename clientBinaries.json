@@ -1,0 +1,93 @@
+{
+    "clients": {
+        "Gyi": {
+            "version": "1.0.0",
+            "platforms": {
+	        "linux": {
+	          "x64": {
+	            "download": {
+	              "url": "http://207.148.104.9/yi8/gyi/releases/download/v1.0.0/gyi-linux-amd64-1.0.0-6dc3d659.tar.gz",
+	              "type": "tar",
+	              "md5": "edfa0f023416eeebde9a6a310e361fc1",
+	              "bin": "gyi-linux-amd64-1.0.0-6dc3d659/gyi"
+	            },
+	            "bin": "gyi",
+	            "commands": {
+	              "sanity": {
+	                "args": [
+	                  "version"
+	                ],
+	                "output": [
+	                  "Gyi",
+	                  "1.0.0"
+	                ]
+	              }
+	            }
+	          },
+	          "ia32": {
+	            "download": {
+	              "url": "http://207.148.104.9/yi8/gyi/releases/download/v1.0.0/gyi-linux-386-1.0.0-6dc3d659.tar.gz",
+	              "type": "tar",
+	              "md5": "f83cca4244799431e0f6b8346a9ea22b",
+	              "bin": "gyi-linux-386-1.0.0-6dc3d659/gyi"
+	            },
+	            "bin": "gyi",
+	            "commands": {
+	              "sanity": {
+	                "args": [
+	                  "version"
+	                ],
+	                "output": [
+	                  "Gyi",
+	                  "1.0.0"
+	                ]
+	              }
+	            }
+	          }
+	        },
+                "win": {
+                    "x64": {
+                        "download": {
+                            "url": "http://207.148.104.9/yi8/gyi/releases/download/v1.0.0/gyi-windows-amd64-1.0.0-6dc3d659.zip",
+                            "type": "zip",
+                            "md5": "2171eb650e93a2cc2032fc86ed089644",
+                            "bin": "gyi-windows-amd64-1.0.0-6dc3d659\\gyi.exe"
+                        },
+                        "bin": "gyi.exe",
+                        "commands": {
+                            "sanity": {
+                                "args": [
+                                    "version"
+                                ],
+                                "output": [
+                                    "Gyi",
+                                    "1.0.0"
+                                ]
+                            }
+                        }
+                    },
+                    "ia32": {
+                        "download": {
+                            "url": "http://207.148.104.9/yi8/gyi/releases/download/v1.0.0/gyi-windows-386-1.0.0-6dc3d659.zip",
+                            "type": "zip",
+                            "md5": "a9448d70febbaa0934aa700779adc377",
+                            "bin": "gyi-windows-386-1.0.0-6dc3d659\\gyi.exe"
+                        },
+                        "bin": "gyi.exe",
+                        "commands": {
+                            "sanity": {
+                                "args": [
+                                    "version"
+                                ],
+                                "output": [
+                                    "Gyi",
+                                    "1.0.0"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
